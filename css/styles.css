@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 120%;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 500%;
+  margin:50px auto 0 auto;
+}
+
+hr{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 10%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+.top-container {
+  background-color: #006778;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: #00AFC1;
+  position: relative;
+  padding-top: 50px
+}
+.bottom-container{
+background-color: #006778;
+position: relative;
+padding-top: 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 190px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.display-pic {
+  width: 250px;
+  height: 250px;
+  }
+.skills1 {
+  width: 200px;
+  height: 200px;
+  position: inherit;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11999e, #11cdd4);
+  background-image: -moz-linear-gradient(top, #11999e, #11cdd4);
+  background-image: -ms-linear-gradient(top, #11999e, #11cdd4);
+  background-image: -o-linear-gradient(top, #11999e, #11cdd4);
+  background-image: linear-gradient(to bottom, #11999e, #11cdd4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Copperplate, Papyrus, fantasy;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
